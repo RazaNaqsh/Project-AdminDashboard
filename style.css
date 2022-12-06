@@ -22,7 +22,6 @@
 
 /* header */
 .main-header,
-.header-nav,
 .header-profile {
 	display: flex;
 }
@@ -37,11 +36,22 @@
 	height: 50%;
 }
 .header-nav {
-	/* background-color: yellow; */
+	display: grid;
+	grid-template-columns: 4fr 2fr;
+}
+.nav-profile,
+.nav-search {
+	display: flex;
+}
+.nav-search {
+	grid-column: 1/2;
+}
+.nav-profile {
+	grid-column: 2/3;
 }
 .header-profile {
-	/* background-color: red; */
 }
+
 /* main sidebar */
 
 .main-sidebar {
