@@ -13,7 +13,7 @@
 .main-container {
 	display: grid;
 	grid-template-rows: 1fr 4fr;
-	grid-template-columns: 1fr 4fr;
+	grid-template-columns: 1fr 5fr;
 	height: 100vh;
 	width: 100vw;
 }
@@ -43,34 +43,49 @@
 	/* background-color: red; */
 }
 /* main sidebar */
-.sidebar-tabs,
-.sidebar-setting {
-	display: flex;
-	flex-direction: column;
-}
+
 .main-sidebar {
 	grid-row: 1/3;
 	grid-column: 1/2;
 	display: grid;
-	grid-template-rows: 1fr 4fr 4fr;
+	grid-template-rows: 1fr 3fr 4fr;
 	background-color: var(--sidebar-bg);
 	color: white;
+}
+.main-sidebar a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.1rem;
+	/* letter-spacing: 2px; */
 }
 .sidebar-title {
 	display: flex;
 	align-items: center;
-	margin-left: 2rem;
-	gap: 1rem;
+	margin-left: 1rem;
+	gap: 0.5rem;
 	/* background-color: aqua; */
 }
 .sidebar-title img {
 	height: 3.3rem;
 }
-.sidebar-tabs {
-	/* background-color: aquamarine; */
-}
+.sidebar-tabs,
 .sidebar-setting {
-	/* background-color: beige; */
+	display: flex;
+	flex-direction: column;
+	gap: 0.7rem;
+	margin-top: 0.5rem;
+}
+
+.sidebar-tabs div,
+.sidebar-setting div {
+	display: flex;
+	align-items: center;
+	margin-left: 1.7rem;
+	gap: 1rem;
+}
+.sidebar-setting img,
+.sidebar-tabs img {
+	width: 1.7rem;
 }
 
 /* main content- contains articles */
