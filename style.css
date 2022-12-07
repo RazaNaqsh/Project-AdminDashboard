@@ -1,8 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	/* to customize */
-	/* border: 1px solid white; */
 }
 :root {
 	--header-bg: #334155;
@@ -80,14 +78,44 @@ button img {
 	height: 35%;
 }
 img.profile-logo {
-	height: 3.5rem;
-	width: 3.5rem;
+	height: 3.2rem;
+	width: 3.2rem;
 	border-radius: 50%;
 }
-.nav-profile-title h2 {
+.main-header h2,
+.main-header h3,
+a {
 	color: white;
+	text-decoration: none;
+}
+.header-main > * {
+	border: 1px solid white;
+}
+.header-main,
+.header-main-info,
+.header-main-tabs {
+	display: flex;
+	gap: 1rem;
 }
 .header-main {
+	justify-content: space-between;
+}
+.header-main-tabs {
+	gap: 2rem;
+	margin-right: 4rem;
+	/* margin-top: 1rem; */
+}
+.main-tabs {
+	background-color: blue;
+	height: 70%;
+	width: 5rem;
+	border-radius: 1rem 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-tabs a {
+	font-size: 1.25rem;
 }
 
 /* main sidebar */
