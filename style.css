@@ -246,3 +246,15 @@ img.profile-logo {
 	grid-row: 2/3;
 	grid-column: 2/3;
 }
+.down-cards {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 1.5rem;
+	width: 80%;
+}
+.down-cards img {
+	height: 3.2rem;
+	width: 3.2rem;
+	border-radius: 50%;
+}
