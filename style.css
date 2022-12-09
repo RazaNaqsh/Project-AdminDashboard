@@ -108,6 +108,7 @@ img.profile-logo {
 	justify-content: space-between;
 	height: 50%;
 	align-items: center;
+	padding-bottom: 0.3rem;
 }
 .header-main-info {
 	margin-left: 4rem;
