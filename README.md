@@ -1,5 +1,9 @@
 # Project-AdminDashboard
-This is a project to practice the grids and took a while to set up the layout.
-This project covers all the grid concepts that i learned.
+A project to practice the grid layout using various grid properties.
 
-Here the link to view:- https://razanaqsh.github.io/Project-AdminDashboard/
+## Warning
+This page is just a layout design! meaning its just for show. Ux isnt dealt with in this one.
+
+
+
+Live Preview:- https://razanaqsh.github.io/Project-AdminDashboard/
